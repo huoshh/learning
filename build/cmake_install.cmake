@@ -117,10 +117,6 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/huoshh/learning/build/gtest/cmake_install.cmake")
-  INCLUDE("/home/huoshh/learning/build/velodyne/velodyne/cmake_install.cmake")
-  INCLUDE("/home/huoshh/learning/build/velodyne/velodyne_msgs/cmake_install.cmake")
-  INCLUDE("/home/huoshh/learning/build/velodyne/velodyne_driver/cmake_install.cmake")
-  INCLUDE("/home/huoshh/learning/build/velodyne/velodyne_pointcloud/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
