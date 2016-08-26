@@ -3,6 +3,6 @@ prefix=/home/huoshh/learning/devel
 Name: velodyne_driver
 Description: Description of velodyne_driver
 Version: 1.2.0
-Cflags: -I/home/huoshh/learning/devel/include -I/home/huoshh/learning/src/velodyne/velodyne_driver/include
+Cflags: -I/home/huoshh/learning/devel/include -I/home/huoshh/learning/src/ivvelodyne/velodyne_driver/include
 Libs: -L/home/huoshh/learning/devel/lib -lvelodyne_input
 Requires: diagnostic_updater dynamic_reconfigure nodelet roscpp tf velodyne_msgs
